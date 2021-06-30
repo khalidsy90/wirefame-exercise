@@ -15,12 +15,26 @@ body{
     justify-content: center;
     justify-content:space-between;
     margin-bottom: 40px;
+    background-color:#444444;
+    height:100px;
+    align-items:center;
+    color:white
+}
+.frameHeader .logo
+{
+    color:black;
 }
 .frameHeader nav ul{
     display: flex;
+    list-style-type: none
 }
 .frameHeader nav ul li{
     padding: 10px;
+    margin-left: 100px;
+}
+.frameHeader nav ul li a{
+    text-decoration: none;
+    color:white
 }
 .frameMain{
     grid-area: FrameMain;
@@ -45,8 +59,20 @@ margin-bottom: 40px;
 }
 .mainPara {
     display: flex;
-    width: 960px;
-    height: 450px;
-    justify-content:space-between;
-    align-items: center;
+    justify-content: end;
+    margin: 0 260px;
+}
+.divMainPara{
+    display: flex;
+    flex-direction: column
+}
+.divMainPara p{
+    text-align: justify;
+
+}
+.divMainPara button{
+    align-self: start;
+    height:30px;
+    background-color:black;
+    color: white
 }
